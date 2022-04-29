@@ -6,6 +6,7 @@
     <modules>
         <module>order</module>
         <module>stock</module>
+        <module>order-sentinel</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -44,12 +45,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.spring.cloud</groupId>
-                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Hoxton.SR12</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
